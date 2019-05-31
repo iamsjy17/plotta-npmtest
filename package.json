@@ -1,0 +1,17 @@
+{
+  "name": "plotta-npmtest",
+  "version": "1.0.0",
+  "description": "plotta-npmtest",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "devserver": "webpack-dev-server -w"
+  },
+  "author": "songjewoo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
